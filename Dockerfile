@@ -1,6 +1,6 @@
 # ACE-Step 1.5 RunPod Serverless Handler
 # Base image includes: CUDA 12.8, ACE-Step models (~15GB), acestep module
-FROM valyriantech/ace-step-1.5:latest
+FROM valyriantech/ace-step-1.5-turbo:latest
 
 # Working directory matches base image
 WORKDIR /app
